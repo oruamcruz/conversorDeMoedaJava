@@ -13,7 +13,7 @@ import java.net.http.HttpResponse;
 public class ConectaApi {
 
     public double buscarCotacao(String moedaBase, String moedaAlvo) throws IOException, InterruptedException {
-        String chave = "6217127a43773f6be51840b8";
+        String chave = "Sua chave aqui...";
         URI url = URI.create("https://v6.exchangerate-api.com/v6/" + chave + "/latest/" + moedaBase);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder().uri(url).build();
