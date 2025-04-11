@@ -41,7 +41,7 @@ src/
 ### Exemplo com terminal:
 ```bash
 javac -cp gson-2.10.1.jar src/**/*.java
-java -cp ".:gson-2.10.1.jar:src" br.com.alura.conversormoeda.principal.ConversorDeMoeda
+java -cp ".:gson-2.10.1.jar:src" br.com.macruz.conversormoeda.principal.ConversorDeMoeda
 ```
 
 ---
@@ -71,4 +71,4 @@ java -cp ".:gson-2.10.1.jar:src" br.com.alura.conversormoeda.principal.Conversor
 
 ## 🧑‍💻 Autor
 
-Desenvolvido por Mauro Abreu Cruz durante um desafio de aprendizado. 🚀
+Desenvolvido por, Mauro Abreu Cruz, durante um desafio de aprendizado. 🚀
